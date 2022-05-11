@@ -1,0 +1,38 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.blueBackground, a{
+    background-color: #1F2937;
+    color: white;
+}
+
+
+/* Header section */
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 40px;
+}
+
+.header-section img {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    margin-left: auto;
+    margin-right: 240px;
+    padding: 120px;
+}
+
+header a {
+    margin: 8px;
+    text-decoration: none;
+}
